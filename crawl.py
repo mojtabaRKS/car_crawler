@@ -17,8 +17,8 @@ options = driver.find_element(
 
 connection = pymysql.connect(host='localhost',
                              user='root',
-                             password='Mojtaba@123',
-                             database='bama_db',
+                             password='',
+                             database='',
                              cursorclass=pymysql.cursors.DictCursor)
 
 
